@@ -1,0 +1,32 @@
+*{padding: 0;margin: 0;}
+body{
+    background-color: rgb(210 236 244);
+}
+
+ .addicon {
+    background-color: transparent; 
+    transition: background-color 0.3s ease !important; 
+    color: rgb(99, 27, 223);
+  }
+  
+ .addicon:hover {
+    background-color: rgb(85, 201, 255);
+    color: #ffffff;
+  }
+
+  .stage{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    font-size: 1.5rem;
+    color: blue;
+    font-weight: bold;
+    border-right: 1px solid grey;
+  }
+  .card{
+    transition: background-color 0.3s ease !important; 
+  }
+  
+ .card:hover{
+    background-color: rgb(85, 201, 255);
+ }
